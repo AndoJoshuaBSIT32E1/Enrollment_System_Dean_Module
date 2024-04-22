@@ -35,3 +35,9 @@ C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integr
 C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.exe
 C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.xml
 C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.pdb
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmDeanDashboard.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmConfirm.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmSchedule.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmSections.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmStudents.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmTeacher.resources

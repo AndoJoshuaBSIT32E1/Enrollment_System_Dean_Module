@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseConnection.vb" />
+    <Compile Include="frmConfirm.Designer.vb">
+      <DependentUpon>frmConfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmDeanDashboard.Designer.vb">
       <DependentUpon>frmDeanDashboard.vb</DependentUpon>
     </Compile>
@@ -84,6 +90,30 @@
       <DependentUpon>frmdeans.vb</DependentUpon>
     </Compile>
     <Compile Include="frmdeans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule.Designer.vb">
+      <DependentUpon>frmSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSections.Designer.vb">
+      <DependentUpon>frmSections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSections.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudents.Designer.vb">
+      <DependentUpon>frmStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeacher.Designer.vb">
+      <DependentUpon>frmTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeacher.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -104,11 +134,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmConfirm.resx">
+      <DependentUpon>frmConfirm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDeanDashboard.resx">
       <DependentUpon>frmDeanDashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmdeans.resx">
       <DependentUpon>frmdeans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule.resx">
+      <DependentUpon>frmSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSections.resx">
+      <DependentUpon>frmSections.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudents.resx">
+      <DependentUpon>frmStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeacher.resx">
+      <DependentUpon>frmTeacher.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
