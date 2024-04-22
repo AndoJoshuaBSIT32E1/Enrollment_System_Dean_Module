@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseConnection.vb" />
+    <Compile Include="frmDeanDashboard.Designer.vb">
+      <DependentUpon>frmDeanDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeanDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmdeans.Designer.vb">
       <DependentUpon>frmdeans.vb</DependentUpon>
     </Compile>
@@ -98,6 +104,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmDeanDashboard.resx">
+      <DependentUpon>frmDeanDashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmdeans.resx">
       <DependentUpon>frmdeans.vb</DependentUpon>
     </EmbeddedResource>
