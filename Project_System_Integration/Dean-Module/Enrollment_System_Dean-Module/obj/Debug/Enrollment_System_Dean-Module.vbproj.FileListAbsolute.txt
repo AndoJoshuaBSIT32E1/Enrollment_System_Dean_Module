@@ -23,3 +23,15 @@ C:\Users\Joshua\OneDrive\Desktop\My School Works\BSIT32E1_Second Semester\System
 C:\Users\Joshua\OneDrive\Desktop\My School Works\BSIT32E1_Second Semester\System Integration\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.exe
 C:\Users\Joshua\OneDrive\Desktop\My School Works\BSIT32E1_Second Semester\System Integration\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.xml
 C:\Users\Joshua\OneDrive\Desktop\My School Works\BSIT32E1_Second Semester\System Integration\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.pdb
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\bin\Debug\Enrollment_System_Dean-Module.exe.config
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\bin\Debug\Enrollment_System_Dean-Module.exe
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\bin\Debug\Enrollment_System_Dean-Module.pdb
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\bin\Debug\Enrollment_System_Dean-Module.xml
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.vbproj.AssemblyReference.cache
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.frmdeans.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean_Module.Resources.resources
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.vbproj.GenerateResource.cache
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.vbproj.CoreCompileInputs.cache
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.exe
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.xml
+C:\Users\Joshua\Source\Repos\Enrollment_System_Dean_Module\Project_System_Integration\Dean-Module\Enrollment_System_Dean-Module\obj\Debug\Enrollment_System_Dean-Module.pdb
