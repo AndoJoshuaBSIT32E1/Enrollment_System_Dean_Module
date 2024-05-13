@@ -32,8 +32,8 @@ Partial Class frmSections
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -41,7 +41,7 @@ Partial Class frmSections
         '
         Me.TextBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.TextBox2.Location = New System.Drawing.Point(615, 33)
+        Me.TextBox2.Location = New System.Drawing.Point(615, 11)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(256, 26)
         Me.TextBox2.TabIndex = 57
@@ -51,10 +51,10 @@ Partial Class frmSections
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(504, 33)
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(523, 11)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(86, 29)
+        Me.Label14.Size = New System.Drawing.Size(92, 25)
         Me.Label14.TabIndex = 58
         Me.Label14.Text = "Search :"
         '
@@ -63,9 +63,9 @@ Partial Class frmSections
         Me.GroupBox1.Controls.Add(Me.ListView1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Location = New System.Drawing.Point(239, 94)
+        Me.GroupBox1.Location = New System.Drawing.Point(25, 94)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(879, 705)
+        Me.GroupBox1.Size = New System.Drawing.Size(1320, 705)
         Me.GroupBox1.TabIndex = 62
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Section Information"
@@ -75,9 +75,9 @@ Partial Class frmSections
         Me.ListView1.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(6, 65)
+        Me.ListView1.Location = New System.Drawing.Point(6, 43)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(865, 634)
+        Me.ListView1.Size = New System.Drawing.Size(865, 488)
         Me.ListView1.TabIndex = 59
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -117,21 +117,21 @@ Partial Class frmSections
         Me.ColumnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader6.Width = 120
         '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Subject ID"
+        Me.ColumnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ColumnHeader7.Width = 130
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(20, 37)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(114, 30)
+        Me.Label1.Size = New System.Drawing.Size(185, 30)
         Me.Label1.TabIndex = 61
-        Me.Label1.Text = "Sections"
-        '
-        'ColumnHeader7
-        '
-        Me.ColumnHeader7.Text = "Subject ID"
-        Me.ColumnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ColumnHeader7.Width = 130
+        Me.Label1.Text = "Class Sections"
         '
         'frmSections
         '

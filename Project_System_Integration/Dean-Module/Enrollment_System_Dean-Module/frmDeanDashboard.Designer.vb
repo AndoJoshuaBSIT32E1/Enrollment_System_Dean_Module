@@ -22,6 +22,7 @@ Partial Class frmDeanDashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmDeanDashboard))
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -43,6 +44,7 @@ Partial Class frmDeanDashboard
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lblTime = New System.Windows.Forms.Label()
         Me.lblDate = New System.Windows.Forms.Label()
@@ -51,7 +53,8 @@ Partial Class frmDeanDashboard
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -307,8 +310,20 @@ Partial Class frmDeanDashboard
         Me.GroupBox1.TabIndex = 23
         Me.GroupBox1.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(57, 43)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(217, 38)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Dean Module"
+        '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.lblTime)
         Me.Panel2.Controls.Add(Me.lblDate)
         Me.Panel2.Controls.Add(Me.Label14)
@@ -317,16 +332,16 @@ Partial Class frmDeanDashboard
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Controls.Add(Me.Label8)
         Me.Panel2.ForeColor = System.Drawing.Color.White
-        Me.Panel2.Location = New System.Drawing.Point(818, 43)
+        Me.Panel2.Location = New System.Drawing.Point(358, 43)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(587, 110)
+        Me.Panel2.Size = New System.Drawing.Size(1047, 110)
         Me.Panel2.TabIndex = 22
         '
         'lblTime
         '
         Me.lblTime.AutoSize = True
         Me.lblTime.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTime.Location = New System.Drawing.Point(475, 51)
+        Me.lblTime.Location = New System.Drawing.Point(875, 74)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(34, 19)
         Me.lblTime.TabIndex = 9
@@ -336,7 +351,7 @@ Partial Class frmDeanDashboard
         '
         Me.lblDate.AutoSize = True
         Me.lblDate.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDate.Location = New System.Drawing.Point(365, 51)
+        Me.lblDate.Location = New System.Drawing.Point(615, 74)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(34, 19)
         Me.lblDate.TabIndex = 7
@@ -346,17 +361,17 @@ Partial Class frmDeanDashboard
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(320, 12)
+        Me.Label14.Location = New System.Drawing.Point(559, 74)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(91, 19)
+        Me.Label14.Size = New System.Drawing.Size(50, 19)
         Me.Label14.TabIndex = 8
-        Me.Label14.Text = "Date/Time:"
+        Me.Label14.Text = "Date:"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(209, 51)
+        Me.Label11.Location = New System.Drawing.Point(148, 74)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(34, 19)
         Me.Label11.TabIndex = 5
@@ -366,7 +381,7 @@ Partial Class frmDeanDashboard
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(165, 12)
+        Me.Label12.Location = New System.Drawing.Point(15, 74)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(122, 19)
         Me.Label12.TabIndex = 6
@@ -376,7 +391,7 @@ Partial Class frmDeanDashboard
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(57, 51)
+        Me.Label10.Location = New System.Drawing.Point(148, 37)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(34, 19)
         Me.Label10.TabIndex = 2
@@ -386,22 +401,26 @@ Partial Class frmDeanDashboard
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(15, 12)
+        Me.Label8.Location = New System.Drawing.Point(15, 37)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(127, 19)
         Me.Label8.TabIndex = 4
         Me.Label8.Text = "Account Name:"
         '
-        'Label1
+        'Label2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(57, 75)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(217, 38)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Dean Module"
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(817, 74)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(52, 19)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Time:"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'frmDeanDashboard
         '
@@ -462,4 +481,6 @@ Partial Class frmDeanDashboard
     Friend WithEvents Label10 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
