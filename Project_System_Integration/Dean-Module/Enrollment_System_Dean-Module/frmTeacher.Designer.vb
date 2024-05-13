@@ -40,7 +40,7 @@ Partial Class frmTeacher
         '
         Me.TextBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.TextBox2.Location = New System.Drawing.Point(483, 33)
+        Me.TextBox2.Location = New System.Drawing.Point(477, 10)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(256, 26)
         Me.TextBox2.TabIndex = 57
@@ -50,10 +50,10 @@ Partial Class frmTeacher
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(372, 33)
+        Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(385, 10)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(86, 29)
+        Me.Label14.Size = New System.Drawing.Size(78, 25)
         Me.Label14.TabIndex = 58
         Me.Label14.Text = "Search :"
         '
@@ -63,30 +63,29 @@ Partial Class frmTeacher
         Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(23, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(107, 30)
+        Me.Label1.Size = New System.Drawing.Size(257, 30)
         Me.Label1.TabIndex = 59
-        Me.Label1.Text = "Teacher"
+        Me.Label1.Text = "Teacher Information"
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.ListView1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Location = New System.Drawing.Point(310, 76)
+        Me.GroupBox1.Location = New System.Drawing.Point(28, 76)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(747, 705)
+        Me.GroupBox1.Size = New System.Drawing.Size(1317, 701)
         Me.GroupBox1.TabIndex = 60
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Teacher Information"
         '
         'ListView1
         '
         Me.ListView1.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(6, 65)
+        Me.ListView1.Location = New System.Drawing.Point(0, 42)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(733, 634)
+        Me.ListView1.Size = New System.Drawing.Size(733, 338)
         Me.ListView1.TabIndex = 59
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
